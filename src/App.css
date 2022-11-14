@@ -9,3 +9,7 @@
   background-image:  url('./assets/images/appointment.png');
   background-repeat:  no-repeat;
 }
+
+.f{
+  background-image: url('./assets/images/treatment.png');
+}
