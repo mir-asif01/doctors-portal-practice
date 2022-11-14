@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../../../assets/images/doctor-small.png'
 const SecondBanner = () => {
     return (
-        <div className='flex justify-between items-center my-10'>
+        <div className='flex flex-col-reverse md:flex-row justify-between items-center p-2 mb-10'>
            <img src={img} className='md:w-1/2 w-full' alt="" />
            <div className='md:w-1/2 w-full'>
                 <h1 className='text-4xl'>Exceptional Dental Care, on Your Terms</h1>
