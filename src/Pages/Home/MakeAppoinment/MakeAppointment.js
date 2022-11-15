@@ -2,7 +2,7 @@ import React from 'react';
 import doctorImg from '../../../assets/images/doctor.png'
 const MakeAppointment = () => {
     return (
-        <div className='mt-10 flex flex-col-reverse md:flex-row justify-evenly items-center appointment p-2'>
+        <div className='mt-32 flex flex-col-reverse md:flex-row justify-evenly items-center appointment p-2'>
             <img src={doctorImg} className='w-full md:w-1/2 -mt-28 hidden md:block' alt="" />
             <div className='w-full md:w-1/2'>
                 <h1 className='text-cyan-600 text-xl font-semibold'>Make Appoinment</h1>
