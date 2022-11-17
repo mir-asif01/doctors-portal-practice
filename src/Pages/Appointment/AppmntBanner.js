@@ -3,9 +3,9 @@ import chair from '../../assets/images/chair.png'
 import { format } from 'date-fns';
 import { DayPicker } from 'react-day-picker';
 
-const AppmntBanner = () => {
+const AppmntBanner = ({selectedDate,setSelectedDate}) => {
 
-    const [selectedDate, setSelectedDate] = useState(new Date())
+    
     let footer = <p>Please select a date</p>
     if(selectedDate){
         footer = <p>You picked {format(selectedDate, 'PPP')}.</p>;
