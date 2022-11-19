@@ -20,7 +20,9 @@ const AvailableAppoinments = ({selectedDate,setSelectedDate}) => {
                 {
                     appmntOptions.map(option=><Card key={option._id} setTreatment={setTreatment} option={option}></Card>)
                 }
-                <BookingModal treatment={treatment} selectedDate={selectedDate}></BookingModal>
+                {
+                    treatment && <BookingModal treatment={treatment} setTreatment={setTreatment} selectedDate={selectedDate}></BookingModal>
+                }
             </div>
         </div>
     );
